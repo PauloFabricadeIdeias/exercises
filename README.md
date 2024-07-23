@@ -18,12 +18,12 @@ Qnd tudo estiver resolvido e o PR for feito, avise o responsável pelo estágio.
 
 
 #### Obs
-O que deve conter no `textarea` é apenas a instrução  q resolve o q foi pedido.
-    Ex: `document.querySelectorAll(".seletorCSS")[0]`
-        Ou aepnas `.seletorCSS`
-Nenhum outro arquivo além do `index.html` deve ser alterado.
-Use o console do navegador para escrever os seletores.
-Todas as atividades precisam de respostas e todas devem fazer APENAS o que foi pedido.
+O que deve conter no `textarea` é apenas a instrução  q resolve o q foi pedido  
+    Ex: `document.querySelectorAll(".seletorCSS")[0]`  
+        Ou aepnas `.seletorCSS`  
+Nenhum outro arquivo além do `index.html` deve ser alterado.  
+Use o console do navegador para escrever os seletores.  
+Todas as atividades precisam de respostas e todas devem fazer APENAS o que foi pedido.  
 
 
 

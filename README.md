@@ -24,12 +24,12 @@ O que deve conter no `textarea` é apenas a instrução  q resolve o q foi pedid
 Nenhum outro arquivo além do `index.html` deve ser alterado.  
 Use o console do navegador para escrever os seletores.  
 Todas as atividades precisam de respostas e todas devem fazer APENAS o que foi pedido.  
-O que deve conter no `textarea` é apenas a instrução  que resolve o que foi pedido.
-    Ex: `document.querySelectorAll(".seletorCSS")[0]`
-        Ou apenas `.seletorCSS`
-Nenhum outro arquivo além do `index.html` deve ser alterado.
-Use o console do navegador para escrever os seletores.
-Todas as atividades precisam de respostas e todas devem fazer APENAS o que foi pedido.
+O que deve conter no `textarea` é apenas a instrução  que resolve o que foi pedido.  
+    Ex: `document.querySelectorAll(".seletorCSS")[0]`  
+        Ou apenas `.seletorCSS`  
+Nenhum outro arquivo além do `index.html` deve ser alterado.  
+Use o console do navegador para escrever os seletores.  
+Todas as atividades precisam de respostas e todas devem fazer APENAS o que foi pedido.  
 
 
 

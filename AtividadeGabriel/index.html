@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>CSS</h2>
+    <div>
+        <p>Select the &#60;h1&#62;, &#60;p&#62;, and &#60;div&#62; elements.</p>
+        <a href="src/htmls/01.html"> HTML atividade 01</a>
+        <br>
+        Resposta:<br>
+        <textarea>document.querySelector('body').innerText</textarea>
+        <hr>
+    </div>
+
+    <div>
+        <p>Select only the paragraphs with the class intro.</p>
+        <a href="src/htmls/02.html"> HTML atividade 02</a>
+        <br>
+        Resposta:<br>
+        <textarea>document.querySelectorAll('p.intro')</textarea>
+        <hr>
+    </div>
+    
+    <div>
+        <p>Select the &#60;h1&#62; element with the ID main-title.</p>
+        <a href="src/htmls/03.html"> HTML atividade 03</a>
+        <br>
+        Resposta:<br>
+        <textarea>document.querySelector('#main-title').innerHTML</textarea>
+        <hr>
+    </div>    
+
+    <div>
+        <p>Select only the paragraphs that are inside the element with the class container.</p>
+        <a href="src/htmls/04.html"> HTML atividade 04</a>
+        <br>
+        Resposta:<br>
+        <textarea>document.querySelectorAll('.container p')</textarea>
+        <hr>
+    </div>
+
+    <div>
+        <p>Select only the immediate children &#60;li&#62; elements of the &#60;ul&#62;.</p>
+        <a href="src/htmls/05.html"> HTML atividade 05</a>
+        <br>
+        Resposta:<br>
+        <textarea>document.querySelector('ul ul li').innerText</textarea>
+        <hr>
+    </div>
+    
+    <div>
+        <p>Select only the paragraphs that are immediately following an &#60;h2&#62; element.</p>
+        <a href="src/htmls/06.html"> HTML atividade 06</a>
+        <br>
+        Resposta:<br>
+        <textarea>document.querySelector('h2:nth-of-type(2) + p').innerText</textarea>
+        <hr>
+    </div>    
+
+    <div>
+        <p>Select and style only the links (&#60;a&#62;) that have an href attribute containing "example".</p>
+        <a href="src/htmls/07.html"> HTML atividade 06</a>
+        <br>
+        Resposta:<br>
+        <textarea>document.querySelectorAll('a[href*="example"]')</textarea>
+        <hr>
+    </div>
+    
+    <div>
+        <p>Select and style the first and last &#60;li&#62; elements in the list.</p>
+        <a href="src/htmls/08.html"> HTML atividade 08</a>
+        <br>
+        Resposta:<br>
+        <textarea>[document.querySelector('ul li:first-child').innerText, document.querySelector('ul li:last-child').innerText]</textarea>
+        <hr>
+    </div>
+        
+    <div>
+        <p>Write a complex selector to style the following elements:<br>
+            The &#60;h1&#62; inside the .container div.<br>
+            The .intro paragraph.<br>
+            The second &#60;li&#62; item inside the .container div.</p>
+        <a href="src/htmls/09.html"> HTML atividade 09</a>
+        <br>
+        Resposta:<br>
+        <textarea>console.log(document.querySelector('.container > h1').innerText, document.querySelector('.intro').innerText, document.querySelector('.container > ul > li:nth-of-type(2)').innerText);</textarea>
+        <hr>
+    </div>
+    <hr>
+    <hr>
+    <h2>Xpath</h2>
+    <div>
+        <p>Write an XPath expression to select the &#60;h1&#62;, &#60;p&#62;, and &#60;div&#62; elements.</p>
+        <a href="src/htmls/10.html"> HTML atividade 10</a>
+        <br>
+        Resposta:<br>
+        <textarea>$x("//body//*")</textarea>
+        <hr>
+    </div>    
+    
+    <div>
+        <p>Write an XPath expression to select the &#60;a&#62; elements with an href attribute containing "example".</p>
+        <a href="src/htmls/11.html"> HTML atividade 11</a>
+        <br>
+        Resposta:<br>
+        <textarea>$x("//a[contains(@href, 'example')]")</textarea>
+        <hr>
+    </div> 
+   
+    <div>
+        <p>Write an XPath expression to select only the paragraphs with the class intro.</p>
+        <a href="src/htmls/12.html"> HTML atividade 12</a>
+        <br>
+        Resposta:<br>
+        <textarea>$x("//p[@class='intro']")</textarea>
+        <hr>
+    </div>   
+
+    <div>
+        <p> Write an XPath expression to select the &#60;h1&#62; element with the ID main-title.</p>
+        <a href="src/htmls/13.html"> HTML atividade 13</a>
+        <br>
+        Resposta:<br>
+        <textarea>$x("//h1[@id='main-title']")</textarea>
+        <hr>
+    </div>
+
+    <div>
+        <p>Write an XPath expression to select only the paragraphs that are descendants of the element with the class container.</p>
+        <a href="src/htmls/14.html"> HTML atividade 14</a>
+        <br>
+        Resposta:<br>
+        <textarea>$x("//div[@class='container']//p")</textarea>
+        <hr>
+    </div>
+
+    <div>
+        <p>Write an XPath expression to select only the immediate children &#60;li&#62; elements of the &#60;ul&#62;.</p>
+        <a href="src/htmls/15.html"> HTML atividade 15</a>
+        <br>
+        Resposta:<br>
+        <textarea>$x("//ul/ul/li")</textarea>
+        <hr>
+    </div>
+    
+    <div>
+        <p>Task: Write an XPath expression to select only the paragraphs that are siblings following an &#60;h2&#62; element.</p>
+        <a href="src/htmls/16.html"> HTML atividade 16</a>
+        <br>
+        Resposta:<br>
+        <textarea>$x("//h2/following-sibling::p[1]")</textarea>
+        <hr>
+    </div>
+        
+    <div>
+        <p>Write an XPath expression to select the first and last &#60;li&#62; elements in the list.</p>
+        <a href="src/htmls/17.html"> HTML atividade 17</a>
+        <br>
+        Resposta:<br>
+        <textarea>$x("//ul/li[1] | //ul/li[last()]")</textarea>
+        <hr>
+    </div>    
+    
+    <div>
+        <p>Write an XPath expression to select the &#60;div&#62; elements that contain the word "text".</p>
+        <a href="src/htmls/18.html"> HTML atividade 18</a>
+        <br>
+        Resposta:<br>
+        <textarea>$x("//div[contains(text(), 'text')]")</textarea>
+        <hr>
+    </div>    
+    <div>
+        <p>Write a complex XPath expression to select the following elements:
+
+            The &#60;h1&#62; inside the .container div.
+            The .intro paragraph.
+            The second &#60;li&#62; item inside the .container div.</p>
+        <a href="src/htmls/19.html"> HTML atividade 19</a>
+        <br>
+        Resposta:<br>
+        <textarea>//div[@class='container']/h1 | //p[@class='intro'] | //div[@class='container']//li[2]</textarea>
+        <hr>
+    </div>
+</body>
+</html>
